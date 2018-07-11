@@ -23,8 +23,11 @@ class ImageList extends StatelessWidget{
             padding: EdgeInsets.all(20.0),
             child: Column(
               children: <Widget>[
-                Image.network(image.url),
-                Text(image.title, style: TextStyle(color: Colors.grey)),
+                Padding (
+                  padding: EdgeInsets.only(bottom: 5.0),
+                  child: Image.network(image.url),
+                ),
+                Text(image.title, style: TextStyle(fontFamily: "Amble", fontWeight: FontWeight.bold, color: Colors.grey)),
               ]
             ),
             foregroundDecoration: BoxDecoration(
