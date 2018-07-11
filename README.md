@@ -1,4 +1,4 @@
-# picts
+# ImageAdder
 
 A new Flutter project.
 
